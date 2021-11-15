@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+
+	<link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" type="text/css" href="estiloslogin.css">
+</head>
+<body>
+
+<form class="formulario" method="POST" action="php/ConexionCrearUsuario.php">
+
+	<h1>Registrate</h1>
+	 <div class="contenedor">
+	 	
+	 	  <div class="input-contenedor">
+	 		<i class="fas fa-user icon" ></i>
+	 		<input type="text" placeholder="Nombre Completo" name="nickname" required>
+	 		
+
+	 	  </div>
+
+  			<div class="input-contenedor">
+	 		<i class="fas fa-envelope icon"></i>
+	 		<input type="email" placeholder="Correo Electronico" name="correo" required>
+	 		
+
+	 	     </div>
+
+	 		<div class="input-contenedor">
+	 		<i class="fas fa-key icon"></i>
+	 		<input type="password" placeholder="Contraseña" name="contraseña" maxlength="20" autocomplete="new-password" required>
+	 		
+
+	 	    </div>
+
+	 	    <input type="submit"value="Registrate" class="button" name="enviar">
+	 	    <p>Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad</p>
+	 	    <p>¿Ya tienes cuenta? <a class="link" href="login.html">Iniciar Sesión</a></p>
+
+	 </div>
+
+
+
+</form>
+
+
+
+</body>
+</html>
